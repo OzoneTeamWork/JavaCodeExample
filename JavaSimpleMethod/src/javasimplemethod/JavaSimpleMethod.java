@@ -15,10 +15,16 @@ public class JavaSimpleMethod {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        // usage of get sum of an integer
         int result = getSum(12345);
         System.out.println(result);
+        
+        // usage of get max number
+        printMax(3, 99);
     }
     
+    // get max number of tow integer
     public static void printMax(int a, int b){
         if(a > b){
             System.out.println(a);
@@ -27,6 +33,7 @@ public class JavaSimpleMethod {
         }
     }
     
+    // get sum of an interger
     public static int getSum(int arg){
         int sum = 0;
         char[] items = (""+arg).toCharArray();
